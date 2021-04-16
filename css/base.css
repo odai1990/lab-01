@@ -1,0 +1,25 @@
+p{
+  display: inline-block;
+  font-weight: bold;
+
+}
+header, footer, div{
+  border: 1px solid gray;
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:'A A A A A';
+  grid-gap: 10px;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  display: inline-grid;
+  background-color: #2196F3;
+  padding: 10px;
+}
